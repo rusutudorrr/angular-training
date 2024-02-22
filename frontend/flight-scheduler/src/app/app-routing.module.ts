@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { AirportsComponent } from './airports/airports.component'; // Adjust path as necessary
+import { RouterModule, Routes } from '@angular/router';
+import { AirportComponent } from '../app/components/airport/airport.component'; // Adjust the path as necessary
 
 export const routes: Routes = [
-  { path: 'airports', component: AirportsComponent },
-  // ... other routes
+  { path: 'airports', component: AirportComponent }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

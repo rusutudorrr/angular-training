@@ -1,0 +1,11 @@
+<div *ngIf="airports.length > 0; else noAirports">
+    <ul>
+      <li *ngFor="let airport of airports">
+        {{ airport.name }} ({{ airport.code }}) - {{ airport.country }}
+      </li>
+    </ul>
+  </div>
+  <ng-template #noAirports>
+    <p>No airports available.</p>
+  </ng-template>
+  

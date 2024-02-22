@@ -1,4 +1,5 @@
+// environment.ts
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://localhost:8000/api' // Your Django backend API URL
+  apiUrl: 'http://localhost:8000/api/'
 };

@@ -8,8 +8,9 @@
 backend/flightscheduler/flights/__pycache__/
 backend/flightscheduler/flights/migrations/__pycache__/
 backend/flightscheduler/flightscheduler/__pycache__/
+backend/flightscheduler/*.sqlite3
 # Node
-frontend/flight-scheduler/node_modules
+frontend/flight-scheduler/node_modules/*
 npm-debug.log
 yarn-error.log
 
@@ -32,7 +33,7 @@ frontend/flight-scheduler/.vscode/tasks.json
 
 # Miscellaneous
 frontend/flight-scheduler/.angular/cache
-frontend/flight-scheduler/.vscode/
+
 .sass-cache/
 
 /connect.lock

@@ -16,6 +16,4 @@ export class AirportService {
       map((response: any) => response['results'])
     );
   }
-  
-
 }
